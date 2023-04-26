@@ -1,0 +1,783 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    color: #990033!important;
+}
+
+.slider{
+    height: 20vh;
+}
+.slider img{
+    height: 100vh;
+}
+.img{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/resim1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow:2px 2px 10px 4px  #ddd;
+}
+.pGiris{
+    text-align: center;
+    width: 64%;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.aGiris1{
+    font-size: 25px;
+}
+.resim2G{
+    height: 55vh;
+}
+.h5Giris{
+    font-size: 35px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: auto;
+    top: 200px;
+    bottom: 200px;
+}
+.logoResim{
+    width: 350px;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.diller3{
+    list-style-type: none;
+}
+.diller3 a{
+    color: #a1a1a1;
+    font-size: 11px;
+}
+.diller3 a:hover{
+    color: #990033 !important;
+}
+.text-danger{
+    color: #990033 !important;
+}
+.diller1{
+    height: 10px;
+    width: 70%;
+    float: right;
+ 
+}
+.navbarGiris a{
+  text-decoration: underline;
+  color: #a1a1a1;
+  font-size: 14px;
+}
+.navbarGiris a:hover{
+    color: #990033 !important;
+
+}
+.navbarAna1{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.hakkimdaChildren{
+    width:45%;
+    text-align: center;
+}
+.hakkimdah1{
+    font-size: 20px;
+}
+.hakkimdaG2{
+    display: flex;
+    justify-content: center;
+}
+.hizmetG{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/resim2.jpg);
+    background-position:top;
+    background-size: cover;
+    width: 100%;
+}
+.hizmetChildren{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hizmetChildren2{
+    width: 60%;
+    text-align: center;
+}
+.hizmetChildren2 a{
+    color: #a1a1a1;
+    font-size: 15px;
+}
+.cardG img{
+   width: 100%;
+   margin-bottom: 2rem;
+}
+.cardP{
+    color: #a1a1a1;
+}
+.cardP a{
+  text-decoration: none;
+  color: #a1a1a1;
+}
+.cardG h5{
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+}
+.cardP1{
+    color: black !important; 
+    font-family: 'sofia-pro', sans-serif;
+    margin-top: 1rem;
+}
+.cardGc{
+    width: 60%;
+}
+
+.footerG{
+    background-color:#020a20;
+}
+.footerG h5{
+   font-size: 13px;
+}
+.footerG a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+ }
+ .footerG ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 1.5rem;
+ }
+ .footerCon{
+    width: 60%;
+ }
+.footerG input{
+    background-color:#020a20;
+}
+.footerG input::placeholder{
+    color: #a1a1a1;
+    font-size: 12px;
+}
+.footerG button{
+   border: 1px solid #fff;
+}
+.emojilerG i{
+    font-size: 25px;
+    margin-right: 3rem;
+ }
+ .footerGaet a{
+ text-decoration: underline;
+ font-size: 15px;
+ }
+ .kapaG{
+    display: flex;
+ }
+ .navbarAna a{
+  text-decoration: none;
+ }
+ 
+
+/* HAKKIMIZDA +++++++++++++++++++++ BASLANGICI */
+
+.navHak{
+    display: flex;
+    height: 35vh;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.sectionHa1 li{
+  list-style-type: none;
+}
+.sectionHa1 a{
+    color: #a1a1a1;
+    font-family: 'sofia-pro' !important;
+    font-size: 14px;
+}
+.sectionHa1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.containerHak{
+    justify-content: center;
+    display: flex;
+}
+.sectionHa2{
+ width: 60%;  
+}
+.containerHak2{
+    display: flex;
+    justify-content: center;
+}
+.sectionHa2 p{
+    color: #020a20 !important;
+    font-family: "abril-text" !important
+}.sectionHaBize{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/761b60e4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.sectionBize2{
+    width: 39%;
+    margin-top: 2rem;
+}
+.sectionBize2 h3{
+text-align: center;
+margin-top: 1rem;
+font-size: 22px;
+}
+.sectionBize2 p{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "abril-text" !important;
+    
+}
+.sectionBize2 a{
+    color: #a1a1a1;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.navbarHakkimizda{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/b6474c4f.jpg);
+    background-position:top;
+    background-size:cover ;
+    height: 50vh;
+}
+.navbarHakkimizda a{
+    text-decoration: none;
+}
+/* HAKKIMIZDA +++++++++++++++++++++ BITISI */
+
+/* HIZMETLERS +++++++++++++++++++++ BASLANGICI */
+
+.navHiz{
+    display: flex;
+    height: 35vh;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.navbarHizmetler{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/hizmetler.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    height: 40vh;
+}
+.navbarHizmetler a{
+    text-decoration: none;
+}
+.divHizmetler1 p{
+    width: 60%;
+}
+.sectionHizmetler a{
+  text-decoration: none;
+  color: #020a20;
+  font-family: 'sofia-pro', sans-serif !important;
+
+}
+.sectionHizmetler li{
+    margin-bottom:1rem;
+  text-align: center;
+
+
+}
+.sectionHizmetler ul{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+/* HIZMETLERS +++++++++++++++++++++ Bitisi */
+/* takım baslangıııcııııııı+++++++++++++++++++++++ */
+
+.navTak{
+    display: flex;
+    height: 35vh;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.navbarTakim{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/takimhead.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    height: 40vh;
+}
+.navbarTakim a{
+    text-decoration: none;
+}
+.takimSag a{
+  text-decoration: none;
+  color: #a1a1a1;
+  margin-right: 0.5rem;
+}
+.sectionTakim ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.sectionTakim input{
+    border: 0px;
+    border-bottom: 1px solid #897979;
+    margin-bottom: 1rem;
+    width: 310px;
+    padding: 0.5rem;
+    color: #a1a1a1;
+    font-size: 13px;
+
+}
+.sectionTakim select{
+    width: 310px;
+    margin-bottom: 1rem;
+    border: 0px;
+    border-bottom: 1px solid #897979;
+    padding: 0.4rem;
+    color: #a1a1a1;
+    font-size: 13px;
+}.takimAra{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.alfabeTa a{
+color: #020a20;
+font-size: 15px;
+}
+.takimSol a{
+  text-decoration: none;
+  color: #020a20;
+  font-family: 'sofia-pro', sans-serif !important;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++   TAKIM BITIS+++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++   KARIYER BASLANGIC+++++++++++++++++++++++ */
+.navbarKariyer{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer1.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    height: 40vh;
+}
+.navbarKariyer a{
+    text-decoration: none;
+}
+.sectionK1 p{
+  font-size: 18px;
+  font-family: "abril-text" !important;
+}
+.sectionKariyerImg{
+    height: 40vh;
+    width: 100%;
+ 
+    
+}
+.sectionKariyerImg{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer4.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    animation: image 10s ease-in 0s infinite normal none;
+    }
+    @keyframes image {
+    0%{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer4.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+
+    }
+    
+    25%{
+        background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer2.jpg);
+        background-position:center 32%;
+        background-size:cover ;
+
+    }
+    
+    50%{
+        background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer3.jpg);
+        background-position:center 32%;
+        background-size:cover ;
+
+    }
+    
+    75%{
+        background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer11.jpg);
+        background-position:center 32%;
+        background-size:cover ;
+
+    }
+    
+    100%{
+        background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer12.jpg);
+        background-position:center 32%;
+        background-size:cover ;
+
+    }
+    }
+    .sectionKariyerYo2 img{
+        border-radius:50% 50%;
+        width: 130px;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .sectionKariyerYo2 p{
+         font-size: 14px;
+       margin-bottom: 1.5rem;
+
+    }
+    .sectionKariyerYo2{
+        width:17%;
+    }
+    .sectionKariyerYo2 h6{
+       font-size: 14px;
+    }
+    .sectionKariyerBas{
+        background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/kariyer6.jpg);
+        background-position:center ;
+        background-size:cover ;
+        height: 30vh;
+    }
+    .sectionKariyerBas1 p{
+      width: 42%;
+    }
+    .sectionKariyerBas a{
+        color: #897979;
+        font-size: 17px;
+        text-decoration: none;
+        padding: 0.7rem;
+        border-bottom: 2px solid #897979;
+        letter-spacing: 2px;
+    }
+ 
+/* ++++++++++++++++++++++++++++++++++++++++++++   KARIYER BITIS+++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++   Hizmet NOktasi baslangici+++++++++++++++++++++++ */
+
+.navbarHizmetnok{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/hizmetH.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    height: 40vh;
+}
+.navbarHizmetnok a{
+    text-decoration: none;
+}.hizmetnimg{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/hizmetn2.jpg);
+    background-size: cover;
+    background-position: center 65%;
+    height: 40vh;
+
+
+}.hizmetnAlar a{
+    color:#897979;
+} 
+  .hizmetNcol6 a{
+    text-decoration: none;
+    color:#020a20;
+}.hizmetnimg1{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/hizmetn1.jpg);
+    background-size: cover;
+    background-position: center 65%;
+    height: 40vh;
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++   Hizmet NOktasi bitisi+++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++   blog baslangiciccc+++++++++++++++++++++++ */
+
+.navbarBlog{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/blog.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    height: 40vh;
+}
+.navbarBlog a{
+ text-decoration: none;
+}.blogArsiv li{
+    margin-bottom: 1rem;
+}
+.takimSagBlog a{
+    text-decoration: none;
+    color: #a1a1a1;
+    margin-right: 0.5rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++   blog bitisssss+++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++   Iletisim Baslangici+++++++++++++++++++++++ */
+.navbarIletisim{
+    background-image:linear-gradient(rgba(5, 18, 42, 0.5),rgba(6, 18, 41, 0.5)), url(image/iletisim.jpg);
+    background-position:center 32%;
+    background-size:cover ;
+    height: 40vh;
+}
+.navbarIletisim a{
+    text-decoration: none;
+}.blogInput input{
+    border: 0px;
+    border-bottom: 1px solid #897979;
+    width: 600px;
+    margin-bottom: 3rem;
+}.blogInput select{
+    width:600px;
+    margin-bottom: 3rem;
+    border: 0px;
+    border-bottom: 1px solid #897979;
+
+}.checkIletisim{
+    width: 10px !important;
+   
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++ILETISIM Bitisi+++++++++++++++++++++++ */
+
+
+@media screen and (max-width: 992px){
+    .hakkimdaChildren{
+        width: auto;
+    }
+    .hizmetChildren2{
+        width: auto;
+    }
+
+  .diller1{
+    display: none !important;
+  }
+  .diller3{
+    display: none !important;
+  }
+  .kapaG{
+    justify-content:start !important;
+  }
+  .logoResim{
+    width: auto;
+  }
+
+.cardGc{
+    width: auto;
+}
+.footerCon{
+    width: 100%;
+ }
+ .footerCol1{
+    width: 100%;
+    text-align: center;
+ }
+ .footerCon .col-6{
+   text-align: center;
+ }
+ .footerGno{
+    display: none;
+ }
+ .footerBtnn{
+    width: 100%;
+ }
+ .emojilerG{
+    display: flex;
+    justify-content: center;
+ }
+ .footerGsakli{
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0px !important;
+    margin-top: 0 !important;
+    text-align: center;
+ }
+ .footerGsakli h5{
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+ }
+ .footerGaet{
+  display: flex;
+  justify-content: center;
+ }
+ .img{
+    height: 50vh;
+ }
+ .h5Giris {
+    font-size: 20px;
+}.resim2G {
+    height: auto;
+}.pGiris{
+    width: auto;
+}.pGiris2{
+    margin-bottom: 0px !important;
+}
+.sectionHa2 {
+    width: auto;
+}.navbarAna{
+    height: 35vh;
+  }
+  .navHak{
+    align-items: center;
+  }.sectionBize2{
+    width: auto;
+  }.divHizmetler1 p {
+   width: auto;
+}.takimSag{
+    width: auto;
+    text-align: center;
+}.takimSol img{
+    width: 100%;
+}.takimSol{
+    width: 100%;
+}.sectionK1 p{
+    width: auto !important;
+
+}.sectionKariyerYo2{
+    width: 50%;
+}.sectionKariyerBas{
+    height: auto;
+}.sectionKariyerBas1 p{
+    width: 70%;
+}.sectionKariyerBas h4{
+    padding: 0.7rem !important;
+}.kariyerA a{
+    padding: 0px;
+    border: 0px;
+} .hizmetnimg3{
+    order: -1;
+}.takimSagBlog{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.blogArsiv{
+    display: none;
+}.blogInput{
+    width: auto !important;
+}.blogInput input{
+    width: 100%;
+}
+.blogInput select{
+    width: 100%;
+}.blogh5{
+    margin-left: 0px !important;
+}
+
+
+}
+
+
+@media screen and (max-width: 576px){
+    .hakkimdaChildren{
+        width: auto;
+    }
+    .hizmetChildren2{
+        width: auto;
+        
+    }
+    .diller1{
+        display: none !important;
+      }
+      .diller3{
+        display: none !important;
+      }
+      .kapaG{
+        justify-content:start !important;
+      }
+      .logoResim{
+        width: auto;
+      }
+      .img{
+        height: 50vh;
+     }
+     .h5Giris {
+        font-size: 20px;
+    }
+    .resim2G {
+        height: auto;
+    }.pGiris{
+        width: auto;
+    }
+    .pGiris2{
+        margin-bottom: 0px !important;
+    }
+
+.cardGc{
+    width: auto;
+}
+.footerCon{
+    width: 100%;
+ }
+ .footerCol1{
+    width: 100%;
+    text-align: center;
+ }
+ .footerCon .col-6{
+    text-align: center;
+  }
+  .footerGno{
+    display: none;
+ }
+ .footerBtnn{
+    width: 100%;
+ }
+ .emojilerG{
+    display: flex;
+    justify-content: center;
+ }
+ .footerGsakli{
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0px !important;
+    margin-top: 0 !important;
+ }
+ .footerGsakli h5{
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    text-align: center;
+
+ }
+ .footerGaet{
+    display: flex;
+    justify-content: center;
+   }
+   .footerHizmetler{
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+   }
+   .sectionHa2 {
+    width: auto;
+}.navbarAna{
+  height: 25vh;
+}
+.navHak{
+    align-items: center;
+  }.sectionBize2{
+    width: auto;
+  }
+  .divHizmetler1 p {
+    width: auto;
+ }.takimSag{
+    width: auto;
+    text-align: center;
+}.takimSol img{
+    width: 100%;
+}
+.takimSol{
+    width: 100%;
+}.sectionK1 p{
+    width: auto !important;
+}.sectionKariyerYo2{
+    width: auto;
+}.sectionKariyerBas{
+    height: auto;
+}.sectionKariyerBas1 p{
+    width: auto;
+}
+  
+
+}
+
